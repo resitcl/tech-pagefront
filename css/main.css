@@ -1665,6 +1665,10 @@ article.article--news .article__body {
     min-width: 200px;
   }
 }
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
 .btn span {
   margin-left: 10px;
 }
@@ -1672,6 +1676,10 @@ article.article--news .article__body {
   background-color: #12428a;
   color: #fff;
   border-color: rgba(255,255,255,0.3);
+}
+.btn.btn--blue:hover {
+  background-color: #fff;
+  color: #000;
 }
 .btn.btn--white {
   background-color: #fff;
@@ -2930,6 +2938,43 @@ section .section__description {
     font-size: 18px;
     line-height: 30px;
   }
+}
+section .section__social {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 20px;
+}
+section .section__social .section__social__logo {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #e99e2d;
+  margin: 0 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 2px solid #e99e2d;
+}
+section .section__social .section__social__logo:hover {
+  background-color: #fff;
+}
+section .section__social .section__social__logo:hover a {
+  color: #e99e2d;
+}
+section .section__social .section__social__logo a {
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
 }
 section .section__header {
   position: relative;
