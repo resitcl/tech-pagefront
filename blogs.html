@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=46646" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=46646" type="text/javascript"></script>
+    <link href="css/main.css?v=10722" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=10722" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -23,8 +23,14 @@
     <header>
       <div class="header__primary">
         <div class="header__wrap">
+          <div class="header__search">
+            <form action="search.html" method="get"><span class="fa fa-search"></span>
+              <input type="text" name="s" placeholder="Buscar caso de éxito">
+            </form>
+          </div>
           <div class="header__inner">
-            <div class="header__logo"><a href="index.html"><img src="img/icons/logo-chiletec.jpeg"></a></div>
+            <div class="header__logo header__logo--color"><a href="index.html"><img src="img/icons/logo-chiletec-color.png"></a></div>
+            <div class="header__logo header__logo--white"><a href="index.html"><img src="img/icons/logo-chiletec-white.png"></a></div>
             <div class="header__nav">
               <div class="header__nav__bg"></div>
               <div class="header__nav__nav">
@@ -39,27 +45,32 @@
                 </div>
                 <nav>
                   <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">Casos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="aboutus.html">Acerca de esta iniciativa</a></li>
+                    <li><a href="cases.html">Casos</a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                   </ul>
                 </nav>
               </div>
             </div>
-            <!--.header__right
-            .header__search
-            	span.fa.fa-search
-            .header__socials
-            	nav
-            		ul
-            			li: a(href="index.html")
-            				span.fa.fa-facebook
-            			li: a(href="index.html")
-            				span.fa.fa-instagram
-            			li: a(href="index.html")
-            				span.fa.fa-linkedin
-            -->
+            <div class="header__right">
+              <div class="header__item header__item--search--mobile"><span class="fa fa-search"></span></div>
+              <div class="header__item header__item--social"><a href="#" target="_blank"><span class="fa fa-facebook"></span></a></div>
+              <div class="header__item header__item--social"><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></div>
+              <div class="header__item header__item--lang">
+                <div class="header__item__symbol"><span class="fa fa-globe"></span><span class="fa fa-angle-down"></span></div>
+                <div class="header__item__nav">
+                  <ul>
+                    <li><a href="#">Español<img src="img/icons/chile.png"></a></li>
+                    <li><a href="#">English<img src="img/icons/chile.png"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__item header__item--ham">
+                <div class="header__ham"><span></span><span></span><span></span></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -69,12 +80,12 @@
         <div class="section__wrap">
           <div class="section__body">
             <h3 class="section__title">Blog </h3>
-            <p class="section__content">Hendrerit ac aliquam taciti porttitor inceptos consectetur leo iaculis phasellus. Eget felis arcu nunc mi curabitur integer sed sociosqu eu mi sagittis erat tincidunt ad.
+            <p class="section__content">Sem imperdiet in gravida felis mi aenean senectus pulvinar odio. Suspendisse donec luctus mattis viverra tempor libero semper nisi tempus consequat potenti tincidunt orci nisi.
             </p>
           </div>
         </div>
         <div class="section__bg">
-          <div class="bg">  <img src="http://placeimg.com/500/100/any?v=26" width="640" height="480"/>
+          <div class="bg">  <img src="http://placeimg.com/500/100/any?v=59" width="640" height="480"/>
           </div>
         </div>
       </section>
@@ -85,11 +96,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=42" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=43" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Placerat torquent elementum per pellentesque luctus hac proin per sapien turpis maecenas ligula facilisis quis ultricies eget dictumst nullam adipiscing.
+                    <p class="article__content">Eleifend ullamcorper nullam lectus non eleifend diam urna erat justo fames mi conubia convallis varius vestibulum sapien feugiat proin etiam.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -97,11 +108,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=72" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=23" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Augue sapien vehicula inceptos integer etiam quisque per nam habitant purus consectetur urna sagittis nisi odio blandit accumsan tincidunt vivamus.
+                    <p class="article__content">Varius facilisis accumsan commodo volutpat bibendum vulputate odio mauris aenean in eleifend iaculis facilisis donec nisi justo adipiscing et enim.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -109,11 +120,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=85" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=84" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Mollis molestie himenaeos ac curae non cubilia commodo at pretium nostra nullam condimentum dui praesent quam iaculis interdum augue hendrerit.
+                    <p class="article__content">Turpis sodales adipiscing molestie auctor enim euismod quisque himenaeos sodales lacinia vestibulum aenean mattis curae dapibus elementum dapibus praesent suspendisse.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -121,11 +132,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=21" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=79" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Urna cursus eget nullam sociosqu aenean cubilia etiam urna leo est sodales conubia leo lobortis est convallis ante conubia ultrices.
+                    <p class="article__content">Luctus porta euismod ornare est faucibus nisl fermentum curabitur sed ullamcorper tempor etiam rhoncus platea conubia diam nullam arcu at.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -133,35 +144,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=21" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=81" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Colus congue laoreet auctor malesuada venenatis varius at integer suspendisse commodo ultrices feugiat curabitur diam placerat a porta interdum neque.
-                    </p><a href="#" class="btn">Articulos</a>
-                  </div>
-                </aricle>
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <aricle class="article--cases">
-                  <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=11" width="640" height="480"/>
-                  </div>
-                  <div class="article__body">
-                    <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Aenean ut enim lacus proin urna pharetra tincidunt arcu volutpat pretium nibh urna mollis odio dui colus semper ornare augue.
-                    </p><a href="#" class="btn">Articulos</a>
-                  </div>
-                </aricle>
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <aricle class="article--cases">
-                  <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=50" width="640" height="480"/>
-                  </div>
-                  <div class="article__body">
-                    <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Nullam nullam aenean luctus imperdiet malesuada posuere eros leo molestie rutrum morbi tortor turpis tortor vitae sapien cras curabitur vestibulum.
+                    <p class="article__content">Pharetra morbi eu metus lobortis nec suscipit porttitor dictum condimentum eu aliquam vel morbi vivamus a vel ligula enim laoreet.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -173,7 +160,7 @@
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Turpis ligula aenean etiam ut fringilla auctor venenatis libero volutpat aenean laoreet fringilla litora nulla felis id hendrerit adipiscing velit.
+                    <p class="article__content">Hendrerit porta aliquam tempor duis facilisis justo gravida phasellus eu donec pharetra per sagittis volutpat potenti viverra cras velit integer.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -181,11 +168,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=74" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=75" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Class egestas pellentesque litora consequat curae porta nostra scelerisque est tellus suspendisse tellus nec arcu neque nisl donec dui mi.
+                    <p class="article__content">Malesuada fringilla ac sed venenatis suspendisse vitae orci justo viverra vel primis conubia habitant iaculis elit curabitur tincidunt purus colus.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -193,11 +180,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=17" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=84" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Velit morbi odio mollis viverra mauris aliquam ultricies fusce fermentum varius nec ac leo condimentum ac class sapien eleifend aliquam.
+                    <p class="article__content">Consequat mattis ut curabitur sed auctor lacinia augue fermentum adipiscing torquent per proin mattis convallis pretium habitant elit dapibus elit.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -205,11 +192,11 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=63" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=19" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Aliquet gravida ultricies praesent praesent rhoncus rhoncus magna eros leo metus augue mi morbi dui vehicula placerat sociosqu conubia purus.
+                    <p class="article__content">Aliquam potenti duis posuere per tempor velit a odio taciti semper cras curabitur curabitur eget rutrum aliquam orci primis suspendisse.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -217,11 +204,35 @@
               <div class="col-md-4 col-xs-6">
                 <aricle class="article--cases">
                   <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
-                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=97" width="640" height="480"/>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=89" width="640" height="480"/>
                   </div>
                   <div class="article__body">
                     <h4 class="article__title">Titulo Blog</h4>
-                    <p class="article__content">Nunc aliquet dui imperdiet quisque porta neque eget aenean sollicitudin nibh rhoncus lacinia erat morbi commodo integer bibendum class lacus.
+                    <p class="article__content">Consectetur ullamcorper faucibus praesent dictumst dictumst consectetur semper eget iaculis risus nostra vestibulum facilisis dapibus donec gravida porttitor quis luctus.
+                    </p><a href="#" class="btn">Articulos</a>
+                  </div>
+                </aricle>
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <aricle class="article--cases">
+                  <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=59" width="640" height="480"/>
+                  </div>
+                  <div class="article__body">
+                    <h4 class="article__title">Titulo Blog</h4>
+                    <p class="article__content">Etiam a inceptos erat in etiam potenti vivamus vulputate vehicula justo nullam fermentum accumsan eros tempor etiam vivamus felis maecenas.
+                    </p><a href="#" class="btn">Articulos</a>
+                  </div>
+                </aricle>
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <aricle class="article--cases">
+                  <div class="article__tags"> <a href="#" class="btn">Articulo</a></div>
+                  <div class="article__img">  <img src="http://placeimg.com/300/100/any?v=33" width="640" height="480"/>
+                  </div>
+                  <div class="article__body">
+                    <h4 class="article__title">Titulo Blog</h4>
+                    <p class="article__content">Dapibus velit venenatis morbi nam commodo turpis tristique integer quis aliquet nunc dapibus purus euismod vitae justo curabitur iaculis pharetra.
                     </p><a href="#" class="btn">Articulos</a>
                   </div>
                 </aricle>
@@ -234,7 +245,7 @@
         <div class="section__wrap">
           <div class="section__body">
             <h3 class="section__title">Quieres destacar tu producto  </h3>
-            <p class="section__content">Ullamcorper conubia bibendum cubilia nulla ligula sed donec ante vel venenatis litora elit augue aliquam eros vel nullam dictumst molestie.
+            <p class="section__content">In hendrerit senectus ut porttitor cras aenean cubilia ad himenaeos sollicitudin sollicitudin dictumst ut praesent curabitur vulputate massa donec vel.
             </p><a href="#" class="btn">Comunicate con nosotros </a>
           </div>
         </div>
@@ -248,7 +259,7 @@
         <div class="footer__banner">
           <div class="footer__body">
             <h3 class="h2 footer__title">Quieres destacar tu producto</h3>
-            <p class="section__description">Quis habitasse imperdiet rutrum himenaeos scelerisque aliquet senectus feugiat habitant. Quisque pretium faucibus lobortis tristique commodo fames tellus lacinia iaculis sagittis aliquet at sollicitudin tempus.
+            <p class="section__description">Massa feugiat aliquam taciti lectus enim elementum vel habitasse class. Tellus conubia aliquet imperdiet tincidunt curae mauris sed felis quam netus class turpis nulla pretium.
             </p><a href="#" class="btn btn--blue">Contáctate con nosotros<span class="fa fa-long-arrow-right"></span></a>
           </div>
         </div>
@@ -277,10 +288,6 @@
                   <div class="footer__info"> 
                     <div class="footer__icon"> <img src="img/icons/icon-mail.svg"></div>
                     <div class="footer__text">contacto@tech.cl</div>
-                  </div>
-                  <div class="footer__info"> 
-                    <div class="footer__icon"> <img src="img/icons/icon-map.svg"></div>
-                    <div class="footer__text">Av providencia • SANTIAGO • CHILE</div>
                   </div>
                 </div>
               </div>

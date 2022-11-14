@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=34762" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=34762" type="text/javascript"></script>
+    <link href="css/main.css?v=19088" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=19088" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -23,8 +23,14 @@
     <header>
       <div class="header__primary">
         <div class="header__wrap">
+          <div class="header__search">
+            <form action="search.html" method="get"><span class="fa fa-search"></span>
+              <input type="text" name="s" placeholder="Buscar caso de éxito">
+            </form>
+          </div>
           <div class="header__inner">
-            <div class="header__logo"><a href="index.html"><img src="img/icons/logo-chiletec.jpeg"></a></div>
+            <div class="header__logo header__logo--color"><a href="index.html"><img src="img/icons/logo-chiletec-color.png"></a></div>
+            <div class="header__logo header__logo--white"><a href="index.html"><img src="img/icons/logo-chiletec-white.png"></a></div>
             <div class="header__nav">
               <div class="header__nav__bg"></div>
               <div class="header__nav__nav">
@@ -39,27 +45,32 @@
                 </div>
                 <nav>
                   <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quienes Somos</a></li>
-                    <li><a href="#">Casos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="aboutus.html">Acerca de esta iniciativa</a></li>
+                    <li><a href="cases.html">Casos</a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                   </ul>
                 </nav>
               </div>
             </div>
-            <!--.header__right
-            .header__search
-            	span.fa.fa-search
-            .header__socials
-            	nav
-            		ul
-            			li: a(href="index.html")
-            				span.fa.fa-facebook
-            			li: a(href="index.html")
-            				span.fa.fa-instagram
-            			li: a(href="index.html")
-            				span.fa.fa-linkedin
-            -->
+            <div class="header__right">
+              <div class="header__item header__item--search--mobile"><span class="fa fa-search"></span></div>
+              <div class="header__item header__item--social"><a href="#" target="_blank"><span class="fa fa-facebook"></span></a></div>
+              <div class="header__item header__item--social"><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></div>
+              <div class="header__item header__item--lang">
+                <div class="header__item__symbol"><span class="fa fa-globe"></span><span class="fa fa-angle-down"></span></div>
+                <div class="header__item__nav">
+                  <ul>
+                    <li><a href="#">Español<img src="img/icons/chile.png"></a></li>
+                    <li><a href="#">English<img src="img/icons/chile.png"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__item header__item--ham">
+                <div class="header__ham"><span></span><span></span><span></span></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -67,15 +78,111 @@
     <div id="sections">
       <div id="particles-js"></div>
       <section class="section--main">
-        <div class="section__video"> 
-          <video id="myvideo" playsinline autoplay muted loop>
-            <source src="img/videos/video_01.mp4" type="video/mp4" autoplay>
-          </video>
+        <div class="section__clipath">
+          <div class="section__video">
+            <video id="myvideo" playsinline autoplay muted loop>
+              <source src="img/videos/video_01.mp4" type="video/mp4" autoplay>
+            </video>
+          </div>
+          <div class="section__wrap section__wrap--main">
+            <div class="section__body"> 
+              <div class="section__slider"> 
+                <div class="slider slider--main">
+                  <div class="slides"> 
+                    <div class="slide"> 
+                      <div class="section__content"> 
+                        <h1 class="section__title">Tecnologia Chilena  </h1>
+                        <p class="section__description">Adipiscing interdum congue donec laoreet nulla nisi sollicitudin morbi donec. A sodales curae fusce aliquet hac semper viverra non curabitur. Cras nulla ante enim feugiat et scelerisque condimentum nam massa sed sociosqu tortor scelerisque adipiscing.
+                        </p><a href="#" class="btn btn--transparent">Ver más <span class="fa fa-angle-right"></span></a>
+                      </div>
+                    </div>
+                    <div class="slide"> 
+                      <div class="section__content"> 
+                        <h2 class="section__title">Convallis bibendum lectus mi
+                        </h2>
+                        <p class="section__description">Condimentum etiam nisl etiam morbi hendrerit imperdiet ut morbi venenatis. Massa ornare potenti nunc odio aptent massa potenti integer ut donec tincidunt etiam mi id.
+                        </p><a href="#" class="btn btn--transparent">Ver más <span class="fa fa-angle-right"></span></a>
+                      </div>
+                    </div>
+                    <div class="slide"> 
+                      <div class="section__content"> 
+                        <h2 class="section__title">Pretium velit per rhoncus
+                        </h2>
+                        <p class="section__description">Eu blandit phasellus eros sollicitudin magna nec primis scelerisque aliquam. Ligula suspendisse risus torquent fames curabitur orci purus vestibulum urna pulvinar malesuada rhoncus quisque taciti.
+                        </p><a href="#" class="btn btn--transparent">Ver más <span class="fa fa-angle-right"></span></a>
+                      </div>
+                    </div>
+                    <div class="slide"> 
+                      <div class="section__content">
+                        <h2 class="section__title">Venenatis orci dapibus blandit
+                        </h2>
+                        <p class="section__description">At suspendisse nec at malesuada leo risus blandit suscipit pharetra. Rhoncus tortor semper potenti sodales class consequat ad tempor taciti ut vulputate nulla netus aptent.
+                        </p><a href="#" class="btn btn--transparent">Ver más <span class="fa fa-angle-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section__wrap section__wrap--main">
-          <div class="section__body">
-            <h1 class="section__title">Tecnologia Chilena </h1>
-            <p class="section__description">Se denomina “Tecnología Chilena,” cuya misión, es posicionar en la opinión pública nacional e internacional sobre la capacidad tecnológica nacional, de modo que sea una opción concreta frente a las necesidades de desarrollo tecnológico de la industria local, regional e internacional.</p><a href="#" class="btn">Ver más<span class="fa fa-long-arrow-right"></span></a>
+      </section>
+      <!--section.section--main
+      .section__video 
+      	video#myvideo(playsinline autoplay muted loop)
+      		source(src="img/videos/video_01.mp4", type="video/mp4" autoplay)
+      
+      .section__wrap.section__wrap--main
+      	.section__body
+      		h1.section__title Tecnologia Chilena 
+      		p.section__description Se denomina “Tecnología Chilena,” cuya misión, es posicionar en la opinión pública nacional e internacional sobre la capacidad tecnológica nacional, de modo que sea una opción concreta frente a las necesidades de desarrollo tecnológico de la industria local, regional e internacional.
+      		a.btn(href="#") Ver más
+      			span.fa.fa-long-arrow-right
+      
+      -->
+      <section class="section--stats"> 
+        <div class="section__wrap"> 
+          <div class="section__header section__header--center"> 
+            <h3 class="h2 section__title">Nuestros números </h3>
+            <p class="section__description">Rutrum condimentum quis phasellus aliquet velit volutpat porttitor hendrerit nunc senectus aliquam.
+            </p>
+          </div>
+          <div class="section__body"> 
+            <div class="cols"> 
+              <div class="col-xs-12 col-md-4"> 
+                <article class="article__stat"> 
+                  <div class="article__flex"><span class="article__number">+54</span>
+                    <div class="article__body">
+                      <h4 class="article__title">Empresas</h4>
+                      <p class="article__description">Imperdiet ad sem consequat malesuada senectus mollis ornare quis orci enim habitant.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-12 col-md-4"> 
+                <article class="article__stat"> 
+                  <div class="article__flex"><span class="article__number">+226</span>
+                    <div class="article__body">
+                      <h4 class="article__title">Casos</h4>
+                      <p class="article__description">Nam sodales feugiat justo fringilla metus tempor lobortis nam vivamus ad rhoncus.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-12 col-md-4"> 
+                <article class="article__stat"> 
+                  <div class="article__flex"><span class="article__number">+20</span>
+                    <div class="article__body">
+                      <h4 class="article__title">Categorías</h4>
+                      <p class="article__description">Eros blandit purus neque porta quis donec metus id praesent aenean lobortis.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -287,47 +394,66 @@
           </div>
         </div>
       </section>
-      <section class="section--stats"> 
+      <section class="section--banner"> 
+        <div class="section__bg"> 
+          <div class="bg"> <img src="img/uploads/1.jpg"></div>
+        </div>
         <div class="section__wrap"> 
+          <div class="section__body"> 
+            <div class="section__content"> 
+              <h3 class="section__title">¿Quieres publicar un caso de éxito?</h3>
+              <p class="section__description">Sodales tortor taciti sem potenti taciti ac iaculis pulvinar nulla. Aliquam facilisis ante mollis varius fames potenti etiam primis facilisis adipiscing luctus curabitur fringilla colus.
+              </p><a href="#" class="btn">Ver más <span class="fa fa-angle-right"></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--partners">  
+        <div class="section__wrap">
           <div class="section__header section__header--center"> 
-            <h3 class="h2 section__title">Nuestros números </h3>
-            <p class="section__description">Dictum ullamcorper nulla risus scelerisque lobortis consectetur ultrices tempor enim sollicitudin in.
+            <h3 class="section__title">Iniciativa impulsada por</h3>
+            <p class="section__description">Facilisis mauris placerat bibendum vivamus pharetra tempor posuere nam accumsan aliquam nunc commodo eget ultrices eu iaculis gravida orci ad.
             </p>
           </div>
-          <div class="section__body"> 
-            <div class="cols"> 
-              <div class="col-xs-12 col-md-4"> 
-                <article class="article__stat"> 
-                  <div class="article__flex"><span class="article__number">+54</span>
-                    <div class="article__body">
-                      <h4 class="article__title">Empresas</h4>
-                      <p class="article__description">Tempus orci morbi eleifend porttitor tristique luctus interdum cras fusce volutpat pharetra.
-                      </p>
+          <div class="section__body">
+            <div class="section__partners">
+              <div class="section__partners__body">
+                <div class="section__wrapper">
+                  <div class="swiper-container swiper-driven">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </article>
-              </div>
-              <div class="col-xs-12 col-md-4"> 
-                <article class="article__stat"> 
-                  <div class="article__flex"><span class="article__number">+226</span>
-                    <div class="article__body">
-                      <h4 class="article__title">Casos</h4>
-                      <p class="article__description">Magna et ultricies enim fusce dictumst torquent fringilla erat elementum id colus.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-xs-12 col-md-4"> 
-                <article class="article__stat"> 
-                  <div class="article__flex"><span class="article__number">+20</span>
-                    <div class="article__body">
-                      <h4 class="article__title">Categorías</h4>
-                      <p class="article__description">Sociosqu egestas quam imperdiet habitant felis gravida fusce ligula tellus donec et.
-                      </p>
-                    </div>
-                  </div>
-                </article>
+                </div>
               </div>
             </div>
           </div>
@@ -335,96 +461,45 @@
       </section>
       <section class="section--partners">  
         <div class="section__wrap">
-          <div class="section__body">
-            <div class="cols"> 
-              <div class="col-md-6">
-                <div class="section__partners">
-                  <div class="section__partners__header">
-                    <h3 class="section__title">Iniciativa impulsada por</h3>
-                    <p class="section__description">Taciti maecenas diam vulputate auctor consequat primis mauris imperdiet blandit lobortis augue consectetur blandit nisi faucibus vivamus maecenas sapien tellus.
-                    </p>
-                  </div>
-                  <div class="section__partners__body">
-                    <div class="section__wrapper">
-                      <div class="swiper-container swiper-driven">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
-                            </div>
-                          </div>
+          <div class="section__header section__header--center"> 
+            <h3 class="section__title">Iniciativa Apoyada por</h3>
+            <p class="section__description">Cras enim donec consectetur tellus habitant class tellus molestie suspendisse mi semper ligula id consectetur suspendisse malesuada ut mauris vivamus.
+            </p>
+          </div>
+          <div class="section__body">										
+            <div class="section__partners">
+              <div class="section__partner__body">
+                <div class="section__wrapper">
+                  <div class="swiper-container swiper-supported">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="section__partners">
-                  <div class="section__partner__header">
-                    <h3 class="section__title">Iniciativa Apoyada por</h3>
-                    <p class="section__description">Himenaeos congue pulvinar aliquam aliquam massa nunc et senectus platea ut pretium inceptos platea etiam litora eleifend curabitur pulvinar ullamcorper.
-                    </p>
-                  </div>
-                  <div class="section__partner__body">
-                    <div class="section__wrapper">
-                      <div class="swiper-container swiper-supported">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="section__partner"> 
-                              <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
-                            </div>
-                          </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-1.png"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-2.jpeg"></a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="section__partner"> 
+                          <div class="section__img"> <a href="#"><img src="img/icons/apoyo-3.jpeg"></a></div>
                         </div>
                       </div>
                     </div>
@@ -456,7 +531,7 @@
                       <div class="article__tag"><span>Salud</span></div>
                     </div>
                     <h4 class="article__title">Titulo Noticia </h4>
-                    <p class="article__description">Purus bibendum nisl bibendum mollis adipiscing lobortis eget ullamcorper elit bibendum vitae molestie aenean ad feugiat class eu mattis dapibus.
+                    <p class="article__description">Nostra condimentum lacus erat eleifend posuere a commodo vitae condimentum accumsan quisque nibh suscipit lobortis accumsan maecenas tortor velit molestie.
                     </p><a href="#" class="btn btn--blue">Ver noticia<span class="fa fa-long-arrow-right"></span></a>
                   </div>
                 </article>
@@ -471,7 +546,7 @@
                       <div class="article__tag"><span>Salud</span></div>
                     </div>
                     <h4 class="article__title">Titulo Noticia </h4>
-                    <p class="article__description">Netus iaculis feugiat sed urna pulvinar id nisi nisl at quam lobortis sed duis torquent elit blandit imperdiet facilisis egestas.
+                    <p class="article__description">Neque vulputate quisque cras nunc maecenas in in erat nunc phasellus non est semper ornare netus fames risus morbi ullamcorper.
                     </p><a href="#" class="btn btn--blue">Ver noticia<span class="fa fa-long-arrow-right"></span></a>
                   </div>
                 </article>
@@ -486,7 +561,7 @@
                       <div class="article__tag"><span>Salud</span></div>
                     </div>
                     <h4 class="article__title">Titulo Noticia </h4>
-                    <p class="article__description">Potenti at mollis ligula dapibus elementum pharetra dui mattis eget tortor malesuada nullam fusce et praesent vestibulum quisque primis et.
+                    <p class="article__description">Porttitor torquent dapibus commodo augue neque ornare id augue feugiat pretium litora nunc ultricies vehicula himenaeos cras arcu mauris tincidunt.
                     </p><a href="#" class="btn btn--blue">Ver noticia<span class="fa fa-long-arrow-right"></span></a>
                   </div>
                 </article>
@@ -504,7 +579,7 @@
         <div class="footer__banner">
           <div class="footer__body">
             <h3 class="h2 footer__title">Quieres destacar tu producto</h3>
-            <p class="section__description">Egestas elit porta quisque semper bibendum sapien nullam augue sociosqu. Est ante rutrum felis lacinia consequat aliquam ac cubilia gravida id urna mi dapibus vitae.
+            <p class="section__description">Aliquam eu laoreet ut eget vivamus etiam non eros pulvinar. Malesuada laoreet nostra maecenas nunc integer odio a taciti iaculis etiam vel orci auctor praesent.
             </p><a href="#" class="btn btn--blue">Contáctate con nosotros<span class="fa fa-long-arrow-right"></span></a>
           </div>
         </div>
@@ -533,10 +608,6 @@
                   <div class="footer__info"> 
                     <div class="footer__icon"> <img src="img/icons/icon-mail.svg"></div>
                     <div class="footer__text">contacto@tech.cl</div>
-                  </div>
-                  <div class="footer__info"> 
-                    <div class="footer__icon"> <img src="img/icons/icon-map.svg"></div>
-                    <div class="footer__text">Av providencia • SANTIAGO • CHILE</div>
                   </div>
                 </div>
               </div>
